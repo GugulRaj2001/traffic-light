@@ -1,0 +1,57 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+    position: relative;
+    background-image:url(./trainpic.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .pole
+ {
+    height: 50vh;
+    width: 30vh;
+    background-color:black;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 3px solid rgb(4, 105, 155);
+    gap: 20px;
+ }
+ .pole2{
+    height: 10px;
+    
+ }
+  
+ .light{
+
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    
+ }
+ .light:nth-child(1):hover{
+    background-color: red;
+
+ }
+ .light:nth-child(2):hover{
+    background-color: rgb(247, 138, 4);
+
+ }
+ .light:nth-child(3):hover{
+    background-color: rgba(24, 230, 5, 0.974);
+
+ }
+  
+ 
